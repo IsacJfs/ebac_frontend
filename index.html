@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+        <h1>B é maior?</h1>
+        <p>Digite um número no Campo A e outro no Campo B</p>
+    </header>
+    <main>
+        <form id="form-verifica">
+            <input id="campoa" type="number" placeholder="Campo A"/>
+            <input id="campob" type="number" placeholder="Campo B"/>
+            <p class="error-message">Digite um número maior</p>
+            <button id="id_button" type="submit">Verificar</button>
+        </form>
+        <p class="success-message"></p>
+    </main>
+    <script src="./main.js"></script>
+</body>
+</html>
