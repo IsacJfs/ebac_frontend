@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Plugins</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <form id="meuFormulario">
+                <h1>Formulário de cadastro</h1>
+                <ul id="itens">
+                    <li>
+                        <label class="label-fix" for="nome">Nome:</label>
+                        <input class="nomeCompleto" type="text" name="nome" id="nome">
+                    </li>
+                    <li>
+                        <label class="label-fix" for="email">E-mail:</label>
+                        <input type="email" placeholder="exemplo@email.com" name="email" id="email">
+                    </li>
+                    <li>
+                        <label class="label-fix" for="telefone">Telefone:</label>
+                        <input type="tel" name="telefone" id="telefone">
+                    </li>
+                    <li>
+                        <label class="label-fix" for="cpf">CPF:</label>
+                        <input type="text" name="cpf" id="cpf">
+                    </li>                    
+                    <li>
+                        <label class="label-fix" for="endereco">Endereço:</label>
+                        <input type="text" name="endereco" id="endereco">
+                    </li>                    
+                    <li>
+                        <label class="label-fix" for="cep">CEP:</label>
+                        <input type="text" name="cep" id="cep">
+                    </li>
+                    <li>
+                        <button type="submit">Enviar</button>
+                    </li>
+                </ul>
+            </form>
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:content-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+form h1 {
+    margin: 20px 0;
+}
+
+section {
+    max-width: 1024px;
+    width: 100%;
+}
+
+section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#itens {
+    list-style: none;
+    width: 300px;
+}
+
+#itens label {
+    width: 100%;
+}
+
+#itens input {
+    display: block;
+    width: 100%;
+    height: 24px;
+}
+
+li {
+    margin-top: 16px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 4px;
+    border-radius: 6px;
+    width: 100px;
+}
+
+.label-fix {
+    font-size: 16px;
+    color: #000;
+}
+
+label {
+    color: red;
+    font-size: 14px;
+}
