@@ -1,10 +1,17 @@
 /* Reset */
-
 * {
     margin: 0;
     padding: 0;
-    box-sizing:content-box;
+    box-sizing: content-box;
     font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: radial-gradient(white, rgb(179, 176, 176), rgb(92, 92, 92)); 
 }
 
 form h1 {
@@ -14,6 +21,7 @@ form h1 {
 section {
     max-width: 1024px;
     width: 100%;
+    margin: 0 auto;
 }
 
 section form {
@@ -46,6 +54,9 @@ button {
     padding: 4px;
     border-radius: 6px;
     width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .label-fix {
