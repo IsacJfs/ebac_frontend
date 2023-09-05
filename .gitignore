@@ -11,3 +11,5 @@
 /vercel-site
 /node_modules
 /build
+/dev
+/dist
